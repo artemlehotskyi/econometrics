@@ -1,0 +1,14 @@
+# macOS / Excel / IDE / Python
+.DS_Store
+~$*.xlsx
+.idea/
+.venv/
+__pycache__/
+
+# Lecturer's materials (not part of this repo)
+materials/
+Лабораторна_2/
+Лабораторна_3/*.pdf
+
+# Meta folder, to be removed manually
+econometrics-github/
