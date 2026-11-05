@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Econometrics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F17"/>
+      <stop offset="55%" stop-color="#07140E"/>
+      <stop offset="100%" stop-color="#0F2E20"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1010" cy="70" r="300" fill="url(#glow)"/>
+
+  <!-- regression plot -->
+  <g opacity="0.4">
+    <line x1="620" y1="60" x2="620" y2="280" stroke="#34D399" stroke-opacity="0.25" stroke-width="2"/>
+    <line x1="620" y1="280" x2="1150" y2="280" stroke="#34D399" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="643" cy="283" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="655" cy="284" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="673" cy="253" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="688" cy="255" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="698" cy="241" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="713" cy="243" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="730" cy="238" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="743" cy="221" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="761" cy="243" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="773" cy="210" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="793" cy="241" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="801" cy="215" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="814" cy="211" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="834" cy="202" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="843" cy="168" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="859" cy="170" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="875" cy="181" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="887" cy="174" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="905" cy="151" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="919" cy="165" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="932" cy="144" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="949" cy="175" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="959" cy="124" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="979" cy="125" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="992" cy="118" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1001" cy="172" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1018" cy="119" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1033" cy="103" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1044" cy="94" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1063" cy="76" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1080" cy="84" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1092" cy="113" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1106" cy="52" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+  <circle cx="1124" cy="85" r="4.5" fill="#34D399" fill-opacity="0.75"/>
+    <line x1="640" y1="270" x2="1130" y2="74" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <rect x="72" y="104" width="6" height="112" rx="3" fill="url(#accent)"/>
+
+  <text x="112" y="182" font-family="'SF Pro Display','Segoe UI',Inter,Helvetica,Arial,sans-serif"
+        font-size="76" font-weight="700" letter-spacing="-2" fill="#ECFDF5">Econometrics</text>
+
+  <text x="114" y="228" font-family="'SF Mono',ui-monospace,Menlo,Consolas,monospace"
+        font-size="22" letter-spacing="3" fill="#8FB9A5">uni labs &#183; Python</text>
+</svg>
